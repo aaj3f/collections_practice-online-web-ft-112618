@@ -42,5 +42,3 @@ def find_a(array)
   array.map { |string| new_array << string if string.start_with?("a") }
   # return new_array
 end
-
-
