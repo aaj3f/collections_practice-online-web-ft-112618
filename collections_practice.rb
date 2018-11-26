@@ -58,4 +58,6 @@ def add_s(array)
       x << "s"
     end
   end
+  # I thought my original one-line code was more elegant, but oh well.
+  # The lab asked me to chain iterators so...
 end
