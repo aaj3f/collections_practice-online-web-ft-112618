@@ -5,7 +5,16 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  array.sort {|left, right| right <=> left}
+  def <=>(obj, other_obj)
+    if obj < other_obj
+      1
+    elsif obj > other_obj
+      -1
+    else
+      0
+    end
+  end
+  array.sort
 end
 
 def sort_array_char_count
