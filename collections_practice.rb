@@ -42,3 +42,11 @@ def find_a(array)
   array.each { |string| new_array << string if string.start_with?("a") }
   return new_array
 end
+
+def sum_array(array)
+  sum = 0
+  array.each { |i| sum += i }
+  return sum
+end
+
+
