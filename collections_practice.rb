@@ -48,3 +48,7 @@ def sum_array(array)
   array.each { |i| sum += i }
   return sum
 end
+
+def add_s(array)
+  array.each { |word| word << "s" unless word == array[1] }
+end
