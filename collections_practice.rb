@@ -39,6 +39,6 @@ end
 
 def find_a(array)
   new_array = Array.new
-  array.map { |string| new_array << string if string.start_with?("a") }
-  # return new_array
+  array.each { |string| new_array << string if string.start_with?("a") }
+  return new_array
 end
