@@ -19,4 +19,3 @@ def swap_elements(array)
   array[2] = two
   return array
 end
-  
